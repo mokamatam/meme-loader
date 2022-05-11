@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #container {
+            width: 50%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }       
+        #memes {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #inpt {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+    <title>Meme Loader</title>
+</head>
+<body>
+
+    <div id="container">
+        <h1>Meme Loader</h1>
+        <div id="inpt">
+            <input type="text" value="10" id="num-memes" style="width: 20%; margin-right: 2%">
+            <button id="top-btn">Load Memes</button>
+        </div>
+
+        <div id="memes">
+        </div>
+
+        <!-- <button id="btm-btn">Load Memes</button> -->
+    </div>
+
+    <script defer src="./script.js"></script>
+
+</body>
+</html>
